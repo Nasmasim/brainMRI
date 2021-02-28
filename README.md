@@ -10,3 +10,6 @@ https://colab.research.google.com/drive/1M2r2jzuqYfo_PNYP8qrTPVkUf9RdYWmQ?usp=sh
 
 Hugo's notebook (part2 3D ResNeXt-101) 
 https://colab.research.google.com/drive/1MYLfuLej1R5RcShJD3mkDE4TanAg-LyK?usp=sharing
+
+Final Combined notebook (with 1 buf fix, combined both models) Awesome !
+https://colab.research.google.com/drive/1TRgjtosU0jEADCX4SqqvAyErzdWjGli6#scrollTo=QfxT7RqDb5ko
