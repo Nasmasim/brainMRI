@@ -11,9 +11,11 @@ The objective of this project is to implement two supervised learning approaches
 # 3D ResUnet
 We implement a 3D ResUnet architecture in [UNet3d.py](https://github.com/Nasmasim/brainMRI/blob/main/UNet3d.py) based on the paper by Özgün Çiçek et al. ['3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation'](https://arxiv.org/abs/1606.06650) onsisting of a contracting encoder that analyses the whole image and a subsequent decoder which produces high-resolution segmentation. Each convolution block in the encoder contains 3x3x3 convolutions, each followed by a ReLu and then a 2x2x2 max pooling with strides of two in each dimension. We added residuals to the output as a convolution of the input of each block, thus implementing a ResUNet. 
 ## Segmentation Results 
-
+We achieved a loss of 0.083 after 20 epochs and Dice scores of 0.99 for background, 0.92 for white matter, 0.89 for white matter and 0.79 for cerebrospinal fluid segmentations 
 <p align="center">
 <img src=https://github.com/Nasmasim/brainMRI/blob/main/images/3dUnet_result.png width="50%">
+<img src=  https://github.com/Nasmasim/brainMRI/blob/main/images/3dUnet_dice.png width="50%">
 </p>
+
 
 
