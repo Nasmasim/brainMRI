@@ -1,15 +1,9 @@
-# brainMRI
-Predicting age regression from brain MRI
+# Age Regression from Brain MRI
+The objective of this project is to implement two supervised learning approaches for age regression from brain MRI. Predicting the age of a patient from their brain MRI scan can have diagnostic value for a number of diseases that may cause structural changes and potential damage to the brain. A discrepancy between the predicted age and the real, chronological age of a patient might indicate the presence of disease. This requires an accurate predictor of brain age which may be learned from a set of healthy reference subjects, given their brain MRI data and their actual age.
 
-Link to Overleaf: 
-https://www.overleaf.com/6477957464pjwtgrqynzsn
+# Imaging Data 
 
+<p align="center">
+<img src="https://github.com/Nasmasim/monte-carlo-markov-chains/blob/main/plots/Screenshot%202021-03-29%20at%2012.05.53.png" width="50%">
+</p>
 
-Ugo's notebook (part 1 3D Unet and regression)
-https://colab.research.google.com/drive/1M2r2jzuqYfo_PNYP8qrTPVkUf9RdYWmQ?usp=sharing
-
-Hugo's notebook (part2 3D ResNeXt-101) 
-https://colab.research.google.com/drive/1MYLfuLej1R5RcShJD3mkDE4TanAg-LyK?usp=sharing
-
-Final Combined notebook (with 1 bug fix, combined both models, extra plotting) Awesome !
-https://colab.research.google.com/drive/1TRgjtosU0jEADCX4SqqvAyErzdWjGli6?usp=sharing
