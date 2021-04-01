@@ -19,7 +19,7 @@ We achieved a loss of 0.083 after 20 epochs and [Dice scores](https://github.com
 ## Feature Calculation
 To obtain tissue volumes per tissue class, we count every pixels in the 3D images belonging to each tissue.
 <p align="center">
-<img src=https://github.com/Nasmasim/brainMRI/blob/main/images/normalised_brain.png width="50%">
+<img src=https://github.com/Nasmasim/brainMRI/blob/main/images/normalised_brain.png width="30%">
 </p>
 
 # ResNeXt
@@ -27,7 +27,7 @@ In a second step, we implement a CNN architecture using ResNeXt residual blocks 
 ## Final predicted score
 The final model obtained a MSE of 79,6 on the validation set of 47 patients. We observed that the validation loss started increasing after 12 epochs on previous runs, which is why we decided to stop learning at this point.
 <p align="center">
-<img src=https://github.com/Nasmasim/brainMRI/blob/main/images/ResNext_result.png width="50%">
+<img src=https://github.com/Nasmasim/brainMRI/blob/main/images/ResNext_result.png width="30%">
 </p>
 
 
