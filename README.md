@@ -23,7 +23,7 @@ To obtain tissue volumes per tissue class, we count every pixels in the 3D image
 </p>
 
 # ResNeXt
-In a second step, we implement a CNN architecture using ResNeXt residual blocks [Saining Xie et al. ](https://arxiv.org/abs/1611.05431). ResNeXt uses a split transform merge strategy. Basically, where Resnet stacked convolution layers vertically, ResNeXt stacks convolution layers vertically and horizontally by adding a new hyperparameter called cardinality. A module in the ResNeXt network performs a set of transformations, each on a low- dimensional embedding, whose outputs are aggregated by summation. The advantage is that it presents a highly modular network architecture for our problem.
+In a second step, we implement a CNN architecture using ResNeXt residual blocks [(Saining Xie et al.)](https://arxiv.org/abs/1611.05431). ResNeXt uses a split transform merge strategy. Basically, where Resnet stacked convolution layers vertically, ResNeXt stacks convolution layers vertically and horizontally by adding a new hyperparameter called cardinality. A module in the ResNeXt network performs a set of transformations, each on a low- dimensional embedding, whose outputs are aggregated by summation. The advantage is that it presents a highly modular network architecture for our problem.
 ## Final predicted score
 The final model obtained a MSE of 79,6 on the validation set of 47 patients. We observed that the validation loss started increasing after 12 epochs on previous runs, which is why we decided to stop learning at this point.
 <p align="center">
