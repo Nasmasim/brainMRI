@@ -13,9 +13,6 @@ We implement a 3D ResUnet architecture in [UNet3d.py](https://github.com/Nasmasi
 
 <p align="center">
 <img src=https://github.com/Nasmasim/brainMRI/blob/main/images/3dUnet_result.png width="50%">
-<img src=https://github.com/Nasmasim/brainMRI/blob/main/images/3dUnet_dice.png
-width="50%">
-
 </p>
 
 
